@@ -30,7 +30,7 @@ div.container {
 }
 
 article.post {
-	border-bottom: 2px dotted #bbbbbb;
+	border-bottom: 2px solid #bbbbbb;
 }
 
 article.post:last-of-type {

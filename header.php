@@ -17,7 +17,14 @@
 			<h5><?php bloginfo('description'); ?></h5>
 
                         <nav class="site-nav">
-			   <?php wp_nav_menu(); ?> 
+				<?php
+				
+					$args = array(
+					'theme_location' => 'primary'
+					);
+				
+				?>
+				<?php wp_nav_menu($args)?>
                         </nav>
 
 		</header><!-- /site-header -->
